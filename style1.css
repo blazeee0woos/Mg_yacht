@@ -48,7 +48,7 @@
     height: 600px;
     position: absolute;
     z-index: -1;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(images/upscalemedia-transformed-2.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("images1/upscalemedia-transformed-2.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
