@@ -821,7 +821,7 @@ body {
 
 .div-img-1-missioms{
     width: 50%;
-    background-image: url(images/tempImageoGBQjX\ 2.png);
+    background-image: url("");
    height: 160px;
    background-position: center;
    background-repeat: no-repeat;
@@ -899,7 +899,7 @@ body {
 }
 
 .div-img-mission-vision-main-thing {
-    background-image: url(images/center-our-vivion.png);
+    background-image: url("images2/center-our-vivion.png");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -913,7 +913,7 @@ body {
 
 @media (max-width: 320px) {
     .div-img-mission-vision-main-thing {
-        background-image: url(images/center-our-vivion.png);
+        background-image: url("images2/center-our-vivion.png");
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -923,7 +923,7 @@ body {
 }
 @media (min-width: 321px) {
     .div-img-mission-vision-main-thing {
-        background-image: url(images/center-our-vivion.png);
+        background-image: url("images2/center-our-vivion.png");
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -934,7 +934,7 @@ body {
 
 @media (min-width: 412px) {
     .div-img-mission-vision-main-thing {
-        background-image: url(images/center-our-vivion.png);
+        background-image: url("images2/center-our-vivion.png");
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -954,7 +954,7 @@ body {
     }
 
     .div-img-mission-vision-main-thing {
-        background-image: url(images/center-our-vivion.png);
+        background-image: url("images2/center-our-vivion.png");
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -1068,7 +1068,7 @@ body {
     }
 
     .div-img-mission-vision-main-thing {
-        background-image: url(images/center-our-vivion.png);
+        background-image: url("images2/center-our-vivion.png");
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -1198,7 +1198,7 @@ body {
 
 @media (min-width: 1000px) {
     .div-img-mission-vision-main-thing {
-        background-image: url(images/center-our-vivion.png);
+        background-image: url("images2/center-our-vivion.png");
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -1334,7 +1334,7 @@ body {
 
 @media (min-width: 1500px) {
     .div-img-mission-vision-main-thing {
-        background-image: url(images/center-our-vivion.png);
+        background-image: url("images2/center-our-vivion.png");
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -1455,7 +1455,7 @@ body {
 
 @media (min-width: 2000px) {
     .div-img-mission-vision-main-thing {
-        background-image: url(images/center-our-vivion.png);
+        background-image: url("images2/center-our-vivion.png");
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -1578,7 +1578,7 @@ body {
 
 @media (min-width: 2560px) {
     .div-img-mission-vision-main-thing {
-        background-image: url(images/center-our-vivion.png);
+        background-image: url("images2/center-our-vivion.png");
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
