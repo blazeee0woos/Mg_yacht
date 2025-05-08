@@ -908,3 +908,33 @@ html {
         margin-left: 90px;
     }
 }
+
+
+
+.nav-page-numb1:hover {
+    font-size: 60px;
+    margin: 0;
+    text-align: center;
+    font-family: Playfair Display;
+    font-weight: 500;
+    transform: scale(1.2);
+}
+
+.nav-page-numb2:hover {
+    font-size: 60px;
+    margin: 0;
+    text-align: center;
+    font-family: Playfair Display;
+    font-weight: 500;
+    transform: scale(1.2);
+}
+
+
+.nav-page-numb3:hover {
+    font-size: 60px;
+    margin: 0;
+    text-align: center;
+    font-family: Playfair Display;
+    font-weight: 500;
+    transform: scale(1.2);
+}
