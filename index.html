@@ -941,6 +941,34 @@ let currentIndex = 0;
             }
         ];
 
+
+
+
+        function changeContent(direction) {
+    currentIndex += direction;
+    if (currentIndex < 0) currentIndex = content.length - 1;
+    if (currentIndex >= content.length) currentIndex = 0;
+
+    const imgElement = document.querySelector("img.changeable");
+    const titleElement = document.querySelector("h3.changeable");
+    const textElement = document.querySelector("h4.changeable");
+
+    const newContent = content[currentIndex];
+
+    // Luo uusi Image-objekti esilatausta varten
+    const tempImg = new Image();
+    tempImg.onload = function () {
+        // Kun kuva on ladattu, päivitä kaikki kerralla
+        imgElement.src = newContent.img;
+        imgElement.alt = "Kuva " + (currentIndex + 1);
+        titleElement.textContent = newContent.title;
+        textElement.textContent = newContent.text;
+    };
+    tempImg.src = newContent.img;
+}
+
+    
+/*
         function changeContent(direction) {
             currentIndex += direction;
             if (currentIndex < 0) currentIndex = content.length - 1;
@@ -950,7 +978,7 @@ let currentIndex = 0;
             document.querySelector("h4.changeable").textContent = content[currentIndex].text;
             document.querySelector("img.changeable").src = content[currentIndex].img;
             document.querySelector("img.changeable").alt = "Kuva " + (currentIndex + 1);
-        }
+        } */
 
 
 
