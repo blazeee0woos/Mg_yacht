@@ -204,7 +204,7 @@
 .backround-img-biggest-yachts-1 {
     width: 90%;
     height: 200px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(images/upscalemedia-transformed-3.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("images1/upscalemedia-transformed-3.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -235,7 +235,7 @@
 .backround-img-biggest-yachts-12 {
     width: 90%;
     height: 80px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(images/2191.1124x569.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("images1/2191.1124x569.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -274,7 +274,7 @@
 .backround-img-biggest-yachts-13 {
     width: 90%;
     height: 80px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(images/DSC02440.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("images1/DSC02440.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2629,19 +2629,19 @@
   }
   
   .step[data-step="1"] {
-    background-image: url('images/image.png');
+    background-image: url("images1/image.png");
     border-bottom: solid white 0.7px;
   }
   .step[data-step="2"] {
-    background-image: url('images/image2.png');
+    background-image: url("images1/image2.png");
     border-bottom: solid white 0.7px;
   }
   .step[data-step="3"] {
-    background-image: url('images/tempImage0vgcJP.png');
+    background-image: url("images1/tempImage0vgcJP.png");
     border-bottom: solid white 0.7px;
   }
   .step[data-step="4"] {
-    background-image: url('images/image3.png');
+    background-image: url("images1/image3.png");
     
   }
   
