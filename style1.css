@@ -2863,6 +2863,23 @@
         background-image: url('images/image3.png');
         border-left: solid white 1px;
       }
+
+        .step[data-step="1"] {
+    background-image: url("images1/image.png");
+    border-bottom: solid white 0.7px;
+  }
+  .step[data-step="2"] {
+    background-image: url("images1/image2.png");
+    border-bottom: solid white 0.7px;
+  }
+  .step[data-step="3"] {
+    background-image: url("images1/tempImage0vgcJP.png");
+    border-bottom: solid white 0.7px;
+  }
+  .step[data-step="4"] {
+    background-image: url("images1/image3.png");
+    
+  }
   }
 
 
@@ -2943,6 +2960,23 @@
         background-image: url('images/image3.png');
         border-left: solid white 1px;
       }
+
+        .step[data-step="1"] {
+    background-image: url("images1/image.png");
+    border-bottom: solid white 0.7px;
+  }
+  .step[data-step="2"] {
+    background-image: url("images1/image2.png");
+    border-bottom: solid white 0.7px;
+  }
+  .step[data-step="3"] {
+    background-image: url("images1/tempImage0vgcJP.png");
+    border-bottom: solid white 0.7px;
+  }
+  .step[data-step="4"] {
+    background-image: url("images1/image3.png");
+    
+  }
   }
 
 
@@ -3024,6 +3058,23 @@
         background-image: url('images/image3.png');
         border-left: solid white 1px;
       }
+
+        .step[data-step="1"] {
+    background-image: url("images1/image.png");
+    border-bottom: solid white 0.7px;
+  }
+  .step[data-step="2"] {
+    background-image: url("images1/image2.png");
+    border-bottom: solid white 0.7px;
+  }
+  .step[data-step="3"] {
+    background-image: url("images1/tempImage0vgcJP.png");
+    border-bottom: solid white 0.7px;
+  }
+  .step[data-step="4"] {
+    background-image: url("images1/image3.png");
+    
+  }
   }
 
 
