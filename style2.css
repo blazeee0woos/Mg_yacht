@@ -6694,3 +6694,15 @@ html, body {
 .fade {
     opacity: 0;
 }
+
+
+
+
+img.changeable {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+img.fade-out {
+  opacity: 0;
+}
