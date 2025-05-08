@@ -5622,16 +5622,14 @@ input {
 
 
     .button-next-box-1:hover {
-    background-color: white;
-    color: #1e1e1e;
+    background-color: none;
+    color: white;
     transition-duration: 0.4s;
-    display: none;
 }
 .button-next-box-2:hover {
-    background-color: white;
-    color: #1e1e1e;
+    background-color: none;
+    color: white;
     transition-duration: 0.4s;
-    display: none;
 }
 }
 
