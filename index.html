@@ -984,31 +984,35 @@ let currentIndex = 0;
 
 
 
-        function changeContent(direction) {
-    const h3 = document.querySelector("h3.changeable");
-    const h4 = document.querySelector("h4.changeable");
-    const img = document.querySelector("img.changeable");
+   function changeContent(direction) {
+    currentIndex += direction;
+    if (currentIndex < 0) currentIndex = content.length - 1;
+    if (currentIndex >= content.length) currentIndex = 0;
 
-    // Häivytä sisältö ennen vaihtoa
-    h3.style.opacity = "0";
-    h4.style.opacity = "0";
-    img.style.opacity = "0";
+    const imgElement = document.querySelector("img.changeable");
+    const titleElement = document.querySelector("h3.changeable");
+    const textElement = document.querySelector("h4.changeable");
 
+    const newContent = content[currentIndex];
+
+  
+    imgElement.classList.add("fade-out");
+
+    
     setTimeout(() => {
-        currentIndex += direction;
-        if (currentIndex < 0) currentIndex = content.length - 1;
-        if (currentIndex >= content.length) currentIndex = 0;
+     
+        imgElement.src = newContent.img;
+        imgElement.alt = "Kuva " + (currentIndex + 1);
 
-        h3.textContent = content[currentIndex].title;
-        h4.textContent = content[currentIndex].text;
-        img.src = content[currentIndex].img;
-        img.alt = "Kuva " + (currentIndex + 1);
+        // Vaihda tekstit
+        titleElement.textContent = newContent.title;
+        textElement.textContent = newContent.text;
 
-        // Näytä uusi sisältö pehmeästi
-        h3.style.opacity = "1";
-        h4.style.opacity = "1";
-        img.style.opacity = "1";
-    }, 500); // Ajan pitää vastata CSS:n transition-aikaa
+        
+        setTimeout(() => {
+            imgElement.classList.remove("fade-out");
+        }, 50);
+    }, 500);
 }
 
 
