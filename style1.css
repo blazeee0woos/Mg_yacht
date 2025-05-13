@@ -4669,6 +4669,7 @@ input[type=text] {
     @media (min-width: 768px) {
       .charity-section {
         padding: 5rem 3rem;
+        width: 80%:
       }
 
       .charity-section h2 {
