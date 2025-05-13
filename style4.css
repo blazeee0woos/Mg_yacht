@@ -910,5 +910,14 @@ html {
 }
 
 
+.button-nav-talk:hover {
+    backround-color: black;
+    color: white;
+}
 
+
+.button-embarak-now:hover {
+    backround-color: black;
+    color: white;
+}
 
