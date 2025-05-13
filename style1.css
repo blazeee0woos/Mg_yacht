@@ -4619,3 +4619,55 @@ input[type=text] {
     width: 100%;
     overflow: hidden;
 }
+
+
+
+
+  .charity-section {
+      background: linear-gradient(to right, #0f172a, #1e293b);
+      color: #fff;
+      padding: 4rem 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      border-radius: 0 0 2rem 2rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .charity-section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .donation-amount {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #10b981; /* emerald green */
+      margin-bottom: 0.5rem;
+    }
+
+    .donation-info {
+      font-size: 1.1rem;
+      color: #cbd5e1;
+      max-width: 600px;
+    }
+
+    .donation-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      .charity-section {
+        padding: 5rem 3rem;
+      }
+
+      .charity-section h2 {
+        font-size: 2.5rem;
+      }
+
+      .donation-amount {
+        font-size: 4rem;
+      }
+    }
