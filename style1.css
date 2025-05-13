@@ -4624,7 +4624,7 @@ input[type=text] {
 
 
   .charity-section {
-      background: linear-gradient(to right, #0f172a, #1e293b);
+      background: none;
       color: #fff;
       padding: 4rem 2rem;
       display: flex;
@@ -4634,6 +4634,7 @@ input[type=text] {
       border-radius: 2rem;
       box-shadow: 0 10px 30px rgba(0,0,0,0.2);
       margin-top: 50px
+      border: solid 2px black
     }
 
     .charity-section h2 {
@@ -4650,7 +4651,7 @@ input[type=text] {
 
     .donation-info {
       font-size: 1.1rem;
-      color: #cbd5e1;
+      color: black;
       max-width: 600px;
     }
 
