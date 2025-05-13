@@ -4622,6 +4622,11 @@ input[type=text] {
 
 
 
+.div-whole-charaty-section {
+    display: flex;
+    justify-content: center;
+}
+
 
   .charity-section {
       background: none;
@@ -4633,8 +4638,9 @@ input[type=text] {
       text-align: center;
       border-radius: 2rem;
       box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-      margin-top: 50px
-      border: solid 2px black
+      margin-top: 50px;
+      border: solid 2px black;
+      width: 80%:
     }
 
     .charity-section h2 {
